@@ -1,7 +1,26 @@
+<script setup>
+import Navbar from './components/Navbar.vue';
+import HeroSection from './components/HeroSection.vue';
+import ProductList from './components/ProductList.vue';
+
+</script>
+
+
 <template>
-  <div class="flex justify-center items-center h-screen bg-gray-100">
-    <button class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">
-      Hello Tailwind!
-    </button>
-  </div>
+  <Navbar/>
+  <main class="container">
+    <HeroSection />
+
+  </main>
+
 </template>
+
+<style scoped>
+/* ✅ ทำให้ HeroSection และ ProductList ต่อกัน */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  overflow-x: hidden;
+}
+</style>
