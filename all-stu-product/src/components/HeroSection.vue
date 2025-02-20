@@ -19,7 +19,7 @@
 <style scoped>
 .hero-section {
   width: 100vw; /* ✅ กว้างเต็มจอ */
-  min-height: 55vh; /* ✅ ปรับให้สูงพอดี */
+  min-height: 100vh; /* ✅ ปรับให้สูงพอดี */
   background: linear-gradient(to right, #4a148c, #1e3a8a);
   color: white;
   display: flex;
@@ -29,6 +29,7 @@
   box-sizing: border-box;
   position: relative; /* ✅ ไม่ให้ทับ Navbar */
   margin-bottom: 0; /* ✅ ไม่ให้เว้นระยะด้านล่าง */
+  overflow-x: hidden; /* ป้องกันการเลื่อนซ้าย-ขวา */
 }
 
 /* ✅ ป้องกันไม่ให้ข้อความล้น */
