@@ -51,6 +51,7 @@
     font-size: 16px;
     min-width: 100px; /* ป้องกันปุ่มเล็กเกินไป */
     text-align: center;
+    border-radius: 50px; /* ✅ ทำให้เป็นปุ่มโค้ง */
   }
   
   /* Hover effect */
