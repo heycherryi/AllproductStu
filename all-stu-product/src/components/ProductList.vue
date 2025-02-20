@@ -50,11 +50,13 @@ const products = [
 /* ✅ การ์ดสินค้า */
 .product-card {
   background: white;
-  padding: 20px;
+  padding: 30px; /* เพิ่ม padding เพื่อให้ดูใหญ่ขึ้น */
+  /*width: 350px;  /* กำหนดความกว้าง */
+  height: 450px; /* กำหนดความสูง */
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* เพิ่มเงาให้ชัดขึ้น */
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
